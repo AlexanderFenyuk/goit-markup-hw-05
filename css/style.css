@@ -24,6 +24,8 @@
   --separatory-line: #ececec;
   --social-icon: #afb1b8;
   --icon-link-color: #afb1b8;
+  --logo-text-color: #fff;
+  --close-color: rgba(0, 0, 0, 0.1);
 
   /*герой*/
   --hero-background-color: #c4c4c4;
@@ -858,7 +860,7 @@ ul {
   background-color: var(--hero-text-color);
 }
 
-/*иконка закрытия*/
+/*иконка закрытия круг*/
 .round {
   position: fixed;
   top: 8px;
@@ -878,7 +880,7 @@ ul {
 
   /*outline: 1px solid red;*/
 }
-/*иконка закрытия (кркстик)*/
+/*иконка закрытия (крестик)*/
 .close-icon {
   width: 12px;
   height: 12px;

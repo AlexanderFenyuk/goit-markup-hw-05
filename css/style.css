@@ -671,6 +671,25 @@ ul {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.project-card-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.thumb {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+  transition: transform 250ms;
+  cursor: default;
+  background-color: var(var(--accent-color));
+}
+
+.projects-section-item:hover .thumb {
+  transform: translateY(0);
+}
 /* портфолио list*/
 .portfolio-card-head {
   font-family: var(--maine-font);
